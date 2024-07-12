@@ -2,9 +2,13 @@ body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
   background-color: #fff;
+  font-weight: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 
-header {
+.top-line {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -190,4 +194,55 @@ h3 {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+}
+
+.two-section {
+  width: 1128px;
+  height: 1000px;
+}
+.row1 {
+  width: 1128px;
+  height: 420px;
+  list-style-type: none;
+  flex-direction: row;
+  display: flex;
+}
+
+.row2 {
+  width: 1128px;
+  height: 420px;
+  list-style-type: none;
+  flex-direction: row;
+  display: flex;
+}
+
+.app,
+.laptop,
+.taxi,
+.cours {
+  width: 360px;
+  height: 420px;
+  background: #fff;
+}
+.pay {
+  border: 1px solid #e7e9fc;
+  width: 360px;
+  height: 420px;
+  background: #fff;
+}
+
+footer {
+  width: 1440px;
+  height: 312px;
+  background: #2e2f42;
+}
+.logo-color2 {
+  color: #f4f4fd;
+}
+.text-color {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
