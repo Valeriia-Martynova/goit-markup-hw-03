@@ -4,17 +4,17 @@ body {
   background-color: #fff;
 }
 
-.top-line {
+header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
   width: 1440px;
   height: 72px;
   background: #fff;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: row;
   gap: 0px;
   width: 115px;
   height: 24px;
@@ -33,15 +33,32 @@ body {
   width: 261px;
   height: 24px;
   list-style-type: none;
+}
+.link-studio {
   text-decoration: none;
   color: #2e2f42;
 }
-
-.navigation:hover {
+.link-studio:hover {
   color: #404bbf;
 }
-.navigation:active {
-  color: #9747ff;
+.link-studio:active {
+  color: #404bbf;
+}
+
+.link-portfolio {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.link-portfolio:hover {
+  color: #404bbf;
+}
+
+.link-contacts {
+  text-decoration: none;
+  color: #2e2f42;
+}
+.link-contacts:hover {
+  color: #404bbf;
 }
 
 .address {
@@ -49,4 +66,128 @@ body {
   list-style-type: none;
   text-decoration: none;
   flex-direction: row;
+}
+.link-email {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.link-email:hover {
+  color: #404bbf;
+}
+.link-tel {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.link-tel:hover {
+  color: #404bbf;
+}
+
+.hero-image {
+  width: 1440px;
+  height: 600px;
+  background: #2e2f42;
+  text-align: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+button:hover {
+  background: #404bbf;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.about-us {
+  list-style-type: none;
+  flex-direction: row;
+  display: flex;
+}
+.strategy,
+.punctuality,
+.diligens,
+.technologies {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  width: 264px;
+  height: 104px;
+}
+
+.two-section {
+  width: 1440px;
+  height: 732px;
+}
+
+.team {
+  list-style-type: none;
+  flex-direction: row;
+  display: flex;
+}
+.mark,
+.tom,
+.camila,
+.daniel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 380px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
