@@ -19,13 +19,17 @@ body {
 }
 
 .logo {
-  gap: 0px;
-  width: 115px;
-  height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
   text-decoration: none;
 }
 .logo-color {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .navigation {
@@ -38,28 +42,24 @@ body {
   height: 24px;
   list-style-type: none;
 }
-.link-studio {
-  text-decoration: none;
+.link-studio,
+.link-portfolio,
+.link-contacts {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 .link-studio:hover {
   color: #404bbf;
 }
-.link-studio:active {
+.link-studio:focus {
   color: #404bbf;
-}
-
-.link-portfolio {
-  text-decoration: none;
-  color: #2e2f42;
 }
 .link-portfolio:hover {
   color: #404bbf;
-}
-
-.link-contacts {
-  text-decoration: none;
-  color: #2e2f42;
 }
 .link-contacts:hover {
   color: #404bbf;
@@ -70,8 +70,10 @@ body {
   list-style-type: none;
   text-decoration: none;
   flex-direction: row;
+  font-style: normal;
 }
-.link-email {
+.link-email,
+.link-tel {
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
@@ -82,14 +84,7 @@ body {
 .link-email:hover {
   color: #404bbf;
 }
-.link-tel {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
+
 .link-tel:hover {
   color: #404bbf;
 }
@@ -100,15 +95,15 @@ body {
   background: #2e2f42;
   text-align: center;
 }
-h1 {
+.top {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
-button {
+.top-button {
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -128,26 +123,31 @@ button {
   color: #fff;
   text-align: center;
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
 }
 button:hover {
   background: #404bbf;
 }
+button:focus {
+  background: #404bbf;
+}
 
-h2 {
+.text-h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
-h3 {
+.three-line {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455:
 }
 
 .about-us {
@@ -171,8 +171,15 @@ h3 {
 .two-section {
   width: 1440px;
   height: 732px;
+  background-color: #F4F4FD
 }
 
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .team {
   list-style-type: none;
   flex-direction: row;
@@ -200,15 +207,11 @@ h3 {
   width: 1128px;
   height: 1000px;
 }
-.row1 {
-  width: 1128px;
-  height: 420px;
-  list-style-type: none;
-  flex-direction: row;
-  display: flex;
-}
 
-.row2 {
+.portfolio-text {
+
+}
+.row {
   width: 1128px;
   height: 420px;
   list-style-type: none;
@@ -234,6 +237,9 @@ h3 {
 footer {
   width: 1440px;
   height: 312px;
+  background: #2e2f42;
+}
+.foot-page {
   background: #2e2f42;
 }
 .logo-color2 {
