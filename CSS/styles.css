@@ -1,8 +1,8 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
-  }
+  background-color: #ffffff;
+}
 
 .top-line {
   display: flex;
@@ -38,8 +38,22 @@ body {
   height: 24px;
   list-style-type: none;
 }
-.link-studio,
-.link-portfolio,
+.link-studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+.link-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
 .link-contacts {
   font-weight: 500;
   font-size: 16px;
@@ -62,13 +76,23 @@ body {
 }
 
 .address {
+  font-style: normal;
+}
+
+.address-row {
   display: flex;
   list-style-type: none;
   text-decoration: none;
   flex-direction: row;
-  font-style: normal;
 }
-.link-email,
+.link-email {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
 .link-tel {
   text-decoration: none;
   font-weight: 400;
@@ -88,16 +112,15 @@ body {
 .hero-image {
   width: 1440px;
   height: 600px;
-  background: #2e2f42;
+  background-color: #2e2f42;
   text-align: center;
 }
 .top {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #fff;
+  color: #ffffff;
 }
 .top-button {
   cursor: pointer;
@@ -111,12 +134,12 @@ body {
   width: 169px;
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
@@ -128,7 +151,7 @@ button:focus {
   background: #404bbf;
 }
 
-.text-h2 {
+.text-h-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -143,7 +166,7 @@ button:focus {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455:
+  color: #2e2f42;
 }
 
 .about-us {
@@ -153,7 +176,7 @@ button:focus {
 }
 .strategy,
 .punctuality,
-.diligens,
+.diligence,
 .technologies {
   display: flex;
   align-items: flex-start;
@@ -167,7 +190,7 @@ button:focus {
 .two-section {
   width: 1440px;
   height: 732px;
-  background-color: #F4F4FD
+  background-color: #f4f4fd;
 }
 
 .text {
@@ -180,10 +203,11 @@ button:focus {
   list-style-type: none;
   flex-direction: row;
   display: flex;
+  background-color: #ffffff;
 }
 .mark,
 .tom,
-.camila,
+.camilla,
 .daniel {
   display: flex;
   align-items: center;
@@ -204,9 +228,6 @@ button:focus {
   height: 1000px;
 }
 
-.portfolio-text {
-
-}
 .row {
   width: 1128px;
   height: 420px;
@@ -218,7 +239,7 @@ button:focus {
 .app,
 .laptop,
 .taxi,
-.cours {
+.courses {
   width: 360px;
   height: 420px;
   background: #fff;
@@ -233,12 +254,12 @@ button:focus {
 footer {
   width: 1440px;
   height: 312px;
-  background: #2e2f42;
+  background-color: #2e2f42;
 }
 .foot-page {
   background: #2e2f42;
 }
-.logo-color2 {
+.logo-color-two {
   color: #f4f4fd;
 }
 .text-color {
