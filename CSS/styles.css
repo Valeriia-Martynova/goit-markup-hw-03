@@ -38,7 +38,7 @@ body {
   height: 24px;
   list-style-type: none;
 }
-.link-studio {
+.link-main-page {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -46,32 +46,17 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
-.link-portfolio {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-}
-.link-contacts {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-  text-decoration: none;
-}
-.link-studio:hover {
+
+.link-main-page:hover {
   color: #404bbf;
 }
-.link-studio:focus {
+.link-main-page:focus {
   color: #404bbf;
 }
-.link-portfolio:hover {
+.link-main-page:hover {
   color: #404bbf;
 }
-.link-contacts:hover {
+.link-main-page:hover {
   color: #404bbf;
 }
 
@@ -205,10 +190,7 @@ button:focus {
   display: flex;
   background-color: #ffffff;
 }
-.mark,
-.tom,
-.camilla,
-.daniel {
+.name {
   display: flex;
   align-items: center;
   justify-content: center;
