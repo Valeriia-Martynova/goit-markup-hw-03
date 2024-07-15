@@ -5,12 +5,7 @@ body {
 }
 
 .top-line {
-  display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  width: 1440px;
-  height: 72px;
   background: #fff;
 }
 
@@ -29,13 +24,7 @@ body {
 }
 
 .navigation {
-  display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
-  width: 261px;
-  height: 24px;
   list-style-type: none;
 }
 .link-main-page {
@@ -65,10 +54,8 @@ body {
 }
 
 .address-row {
-  display: flex;
   list-style-type: none;
   text-decoration: none;
-  flex-direction: row;
 }
 .link-contacts {
   text-decoration: none;
@@ -88,8 +75,6 @@ body {
 }
 
 .hero-image {
-  width: 1440px;
-  height: 600px;
   background-color: #2e2f42;
   text-align: center;
 }
@@ -102,16 +87,7 @@ body {
 }
 .top-button {
   cursor: pointer;
-  display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -149,25 +125,15 @@ button:focus {
 
 .about-us {
   list-style-type: none;
-  flex-direction: row;
-  display: flex;
 }
 .strategy,
 .punctuality,
 .diligence,
 .technologies {
-  display: flex;
-  align-items: flex-start;
   justify-content: flex-start;
-  flex-direction: column;
-  gap: 8px;
-  width: 264px;
-  height: 104px;
 }
 
 .two-section {
-  width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
 }
 
@@ -179,56 +145,29 @@ button:focus {
 }
 .team {
   list-style-type: none;
-  flex-direction: row;
-  display: flex;
   background-color: #ffffff;
 }
 .name {
-  display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
-  gap: 32px;
-  border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
 
-.two-section {
-  width: 1128px;
-  height: 1000px;
-}
-
 .row {
-  width: 1128px;
-  height: 420px;
   list-style-type: none;
-  flex-direction: row;
-  display: flex;
 }
 
 .app,
 .laptop,
 .taxi,
 .courses {
-  width: 360px;
-  height: 420px;
   background: #fff;
 }
 .pay {
   border: 1px solid #e7e9fc;
-  width: 360px;
-  height: 420px;
   background: #fff;
 }
 
 footer {
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
 }
 .foot-page {
