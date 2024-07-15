@@ -70,7 +70,7 @@ body {
   text-decoration: none;
   flex-direction: row;
 }
-.link-email {
+.link-contacts {
   text-decoration: none;
   font-weight: 400;
   font-size: 16px;
@@ -78,19 +78,12 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.link-tel {
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-.link-email:hover {
+
+.link-contacts:hover {
   color: #404bbf;
 }
 
-.link-tel:hover {
+.link-contacts:focus {
   color: #404bbf;
 }
 
