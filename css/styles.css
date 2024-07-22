@@ -34,15 +34,7 @@ img {
 }
 
 .top-line {
-  display: flex;
-  justify-content: flex-start;
-  background: #fff;
   border-bottom: 1px solid #e7e9fc;
-  flex-direction: row;
-  width: 1440px;
-  height: 72px;
-  padding: 0 156px;
-  align-items: center;
 }
 
 .top-line .container {
