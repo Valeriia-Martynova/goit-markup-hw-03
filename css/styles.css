@@ -44,6 +44,7 @@ img {
   padding: 0 156px;
   align-items: center;
 }
+
 .top-line .container {
   display: flex;
   width: 1158px;
@@ -132,12 +133,16 @@ main {
 }
 .section-hero-image {
   background-color: #2e2f42;
-  text-align: center;
   width: 1440px;
   height: 600px;
   padding: 188px 0;
+}
+
+.top .container {
+  justify-content: center;
   display: flex;
 }
+
 .top {
   font-size: 56px;
   line-height: 1.07;
@@ -147,6 +152,7 @@ main {
   margin-bottom: 48px;
   max-width: 496px;
 }
+
 .top-button {
   display: block;
   align-items: flex-start;
@@ -188,8 +194,16 @@ h2 {
   margin-bottom: 72px;
 }
 .visually-hidden {
-  visibility: hidden;
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 h3 {
@@ -207,10 +221,7 @@ h3 {
   height: 104px;
   gap: 24px;
 }
-.strategy,
-.punctuality,
-.diligence,
-.technologies {
+.about-us-item {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
@@ -243,11 +254,9 @@ h3 {
   background-color: #ffffff;
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 .name {
   justify-content: center;
-  width: calc((100%-72) / 4);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -261,8 +270,13 @@ h3 {
   background: #fff;
   width: calc((100% - 72px) / 4);
 }
-.card .container {
+.container-card {
   padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .row {
@@ -279,16 +293,9 @@ h3 {
   border-top: none;
 }
 
-.banking,
-.laptop,
-.taxi,
-.screen,
-.courses {
+.row-item {
   background: #fff;
-}
-.pay {
-  border: 1px solid #e7e9fc;
-  background: #fff;
+  width: calc((100% - 48px) / 3);
 }
 
 footer {
@@ -313,4 +320,5 @@ footer {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   flex-basis: 100px;
+  width: 264px;
 }
